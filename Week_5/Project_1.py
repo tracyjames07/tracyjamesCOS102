@@ -10,7 +10,7 @@ def load_csv(datapath):
             dataset.append(row)
     return dataset
 
-datapath = 'C:\Users\there\OneDrive\Desktop\tracyjamesCOS102\Week_5\GIG-logistics.csv'
+datapath = 'C:\\Users\\there\\OneDrive\\Desktop\\tracyjamesCOS102\\Week_5\\GIG-logistics.csv'
 datasheet = load_csv(datapath)
 
 def checkUser(arr, surname, firstname, department):
