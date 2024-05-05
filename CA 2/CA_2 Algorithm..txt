@@ -1,0 +1,37 @@
+01. Import necessary libraries. i.e. tkinter as tk, 
+    messagebox from tkinter, * from tkinter, pyglet etc.
+02. Load a specific font using 'pyglet'.
+03. Define a function 'calculate' to:
+    a. Get the selected menu and quantity from the user.
+    b. Append the price of the selected menu, 
+       and the quantity to their respective lists.
+    c. Initialize a variable 'final_price' to 0.
+    d. For each price in the prices list:
+       i. Calculate the total price for the quantity 
+       and add it to 'final_price'.
+    e. Apply discounts based on the final price:
+       i.   If 'final_price' is less than 2500, apply a 10% discount.
+       ii.  If 'final_price' is between 2500 and 5000, apply a 15% discount.
+       iii. If 'final_price' is more than 5000, apply a 25% discount.
+       iv.  If 'final_price' is less than 1000, no discount is applied.
+    f. Display a message box with the final price after discount.
+04. Define a function 'landing' to display a welcome message.
+
+05. Initialize the home window with a title, geometry, and background color.
+
+06. Add a welcome label to the home window.
+
+07. Define a function 'catalogue' to:
+    a. Destroy the home window.
+    b. Initialize the menu window with a title, geometry, and background color.
+    c. Add various labels for different sections of the menu.
+
+08. Define a function 'meal' to:
+    a. Define a function 'add_to_cart' to:
+       i.   Destroy the current window.
+       ii.  Get the selected menu and quantity from the user.
+       iii. Append the price of the selected menu and the quantity to their respective lists.
+       iv.  Display a message box indicating the item has been added to the cart.
+    b. Initialize the order window with a title, geometry, and background color.
+    c. Add various labels and options for the user to select their order and quantity.
+    d. Add buttons for adding to order and checking out.

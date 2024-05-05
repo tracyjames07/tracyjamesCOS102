@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import messagebox, StringVar
 from tkinter import *
 
 def button_click():
@@ -51,14 +51,14 @@ def process():
             interview_label.pack()
             interview_label.config(fg = "White", bg = "Green")
             
-            grade_options = [
+            grade_options = {
                 "A",
                 "B",
                 "C",
                 "D",
                 "E",
                 "F"
-            ]
+            }
 
             grade = StringVar()
             grade.set(grade_options[0])
